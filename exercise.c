@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define NUM_STUDENTS 5
+#define NUM_STUDENTS 10 // Update the number of students to 10
 
 // Structure to store student information
 struct Student {
@@ -9,7 +9,7 @@ struct Student {
 };
 
 int main() {
-    struct Student students[NUM_STUDENTS]; // Array to hold 5 students
+    struct Student students[NUM_STUDENTS]; // Array to hold 10 students
 
     // Input student names and marks
     for (int i = 0; i < NUM_STUDENTS; i++) {
